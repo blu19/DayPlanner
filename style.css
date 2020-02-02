@@ -1,0 +1,53 @@
+.pTimeTag {
+    font-size: 25px;
+}
+
+.container {
+    padding: 0px;    
+}
+
+.input-group {
+    padding: 0px;
+}
+
+.btn {
+    color: snow;
+}
+
+#myFormPlanner {
+    background-color: cornflowerblue;
+}
+
+.myContainer {
+    background-color: cornflowerblue;
+}
+
+.wholeBody {
+    background-color: cornflowerblue;
+}
+
+.inputClass {
+    background-color: cornflowerblue;
+    padding: 2px 2px 2px 2px;
+    margin: 1px 1px 1px 1px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+.myFooter {
+    background-color: cornflowerblue;
+}
+
+.myNavBar {
+    background-color: silver;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: silver;
+    color: (rgb(8, 30, 40), green, blue);
+    text-align: center;
+}

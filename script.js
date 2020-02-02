@@ -1,4 +1,4 @@
-var rightNow = moment().hour(23);
+var rightNow = moment().hour();
 
 console.log(rightNow);
 
@@ -8,4 +8,20 @@ for (var time = 9; time < 18; time++) {
     var i = time - 9;
     console.log(i)
     //attribute color change if less than
+}
+//calender rows
+$('#myContainerPlanner').append('<div id="nine" class="input-group mb-3 mx-auto row plannerRow hour-index" style="width: 700px;"></div>');
+$('#nine').append("<div class='col-md-2'>");
+$('#nine').append('<span class="timeContainer">');
+
+//Showing hour and am or pm for each row
+var displayHour = 0;
+var ampm = "";
+
+if (hour > 12) {
+    displayHour = hour - 12;
+    ampm = "pm";
+} else {
+    displayHour = hour;
+    ampm = "am";
 }
