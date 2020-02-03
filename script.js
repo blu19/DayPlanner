@@ -1,6 +1,8 @@
-var rightNow = moment().hour();
-
-console.log(rightNow);
+var moment = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+$('#showTime').text(moment);
+//document.getElementById("#headerText").innerHTML = moment;
+//$('.city').html(`<h1>${response.name} Weather Details</h1>`);
+console.log(moment);
 
 //for loop for calender rows
 for (var time = 9; time < 18; time++) {
