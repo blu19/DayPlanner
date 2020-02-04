@@ -9,7 +9,7 @@
 
     <title>ToDay Planner</title>
 </head>
-<body class="wholeBody text-center">
+<body class="wholeBody text-center" onload="storedPlans()">
     <!-- Header title section -->
     <nav class="myNavBar navbar navbar-static-top navbar-text container-fluid">
         <div class="header-text text-center">
@@ -23,74 +23,74 @@
                 <!-- <h2>Planning</h2> -->
                 <div class="input-group mb-3 mx-auto" style="width: 700px;">
                     <p class="pTimeTag">9:00am</p>
-                    <input type="text" id="userInput" class="form-control inputClass" placeholder="Schedule something..." aria-label="Scheduled Activities"
-                        aria-describedby="button-addon2">
+                    <textarea id="userInput inputNine" class="form-control inputClass" placeholder="Schedule something..." aria-label="Scheduled Activities"
+                        aria-describedby="button-addon2"></textarea>
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="saves">Save Me</button>
+                        <button value="save" class="btn btn-outline-secondary" type="button" id="saves9" onclick="save()">Save Me</button>
                     </div>
                 </div>
                 <div class="input-group mb-3 mx-auto" style="width: 700px;">
                     <p class="pTimeTag">10:00am</p>
-                    <input type="text" id="userInput" class="form-control inputClass" placeholder="Schedule something..." aria-label="Scheduled Activities"
-                        aria-describedby="button-addon2">
+                    <textarea id="userInput inputTen" class="form-control inputClass" placeholder="Schedule something..." aria-label="Scheduled Activities"
+                        aria-describedby="button-addon2"></textarea>
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="saves">Save Me</button>
+                        <button class="btn btn-outline-secondary" type="button" id="saves" onclick="save()">Save Me</button>
                     </div>
                 </div>
                 <div class="input-group mb-3 mx-auto" style="width: 700px;">
                     <p class="pTimeTag">11:00am</p>
-                    <input type="text" id="userInput" class="form-control inputClass" placeholder="Schedule something..."
-                        aria-label="Scheduled Activities" aria-describedby="button-addon2">
+                    <textarea id="userInput inputEleven" class="form-control inputClass" placeholder="Schedule something..."
+                        aria-label="Scheduled Activities" aria-describedby="button-addon2"></textarea>
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="saves">Save Me</button>
+                        <button class="btn btn-outline-secondary" type="button" id="saves" onclick="save()">Save Me</button>
                     </div>
                 </div>
                 <div class="input-group mb-3 mx-auto" style="width: 700px;">
                     <p class="pTimeTag">12:00pm</p>
-                    <input type="text" id="userInput" class="form-control inputClass" placeholder="Schedule something..."
-                        aria-label="Scheduled Activities" aria-describedby="button-addon2">
+                    <textarea id="userInput inputTwelve" class="form-control inputClass" placeholder="Schedule something..."
+                        aria-label="Scheduled Activities" aria-describedby="button-addon2"></textarea>
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="saves">Save Me</button>
+                        <button class="btn btn-outline-secondary" type="button" id="saves" onclick="save()">Save Me</button>
                     </div>
                 </div>
                 <div class="input-group mb-3 mx-auto" style="width: 700px;">
                     <p class="pTimeTag">1:00pm</p>
-                    <input type="text" id="userInput" class="form-control inputClass" placeholder="Schedule something..."
-                        aria-label="Scheduled Activities" aria-describedby="button-addon2">
+                    <textarea id="userInput inputOne" class="form-control inputClass" placeholder="Schedule something..."
+                        aria-label="Scheduled Activities" aria-describedby="button-addon2"></textarea>
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="saves">Save Me</button>
+                        <button class="btn btn-outline-secondary" type="button" id="saves" onclick="save()">Save Me</button>
                     </div>
                 </div>
                 <div class="input-group mb-3 mx-auto" style="width: 700px;">
                     <p class="pTimeTag">2:00pm</p>
-                    <input type="text" id="userInput" class="form-control inputClass" placeholder="Schedule something..."
-                        aria-label="Scheduled Activities" aria-describedby="button-addon2">
+                    <textarea id="userInput inputTwo" class="form-control inputClass" placeholder="Schedule something..."
+                        aria-label="Scheduled Activities" aria-describedby="button-addon2"></textarea>
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="saves">Save Me</button>
+                        <button class="btn btn-outline-secondary" type="button" id="saves" onclick="save()">Save Me</button>
                     </div>
                 </div>
                 <div class="input-group mb-3 mx-auto" style="width: 700px;">
                     <p class="pTimeTag">3:00pm</p>
-                    <input type="text" id="userInput" class="form-control inputClass" placeholder="Schedule something..."
-                        aria-label="Scheduled Activities" aria-describedby="button-addon2">
+                    <textarea id="userInput inputThree" class="form-control inputClass" placeholder="Schedule something..."
+                        aria-label="Scheduled Activities" aria-describedby="button-addon2"></textarea>
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="saves">Save Me</button>
+                        <button class="btn btn-outline-secondary" type="button" id="saves" onclick="save()">Save Me</button>
                     </div>
                 </div>
                 <div class="input-group mb-3 mx-auto" style="width: 700px;">
                     <p class="pTimeTag">4:00pm</p>
-                    <input type="text" id="userInput" class="form-control inputClass" placeholder="Schedule something..."
-                        aria-label="Scheduled Activities" aria-describedby="button-addon2">
+                    <textarea id="userInput inputFour" class="form-control inputClass" placeholder="Schedule something..."
+                        aria-label="Scheduled Activities" aria-describedby="button-addon2"></textarea>
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="saves">Save Me</button>
+                        <button class="btn btn-outline-secondary" type="button" id="saves" onclick="save()">Save Me</button>
                     </div>
                 </div>
                 <div class="input-group mb-3 mx-auto" style="width: 700px;">
                     <p class="pTimeTag">5:00pm</p>
-                    <input type="text" id="userInput" class="form-control inputClass" placeholder="Schedule something..."
-                        aria-label="Scheduled Activities" aria-describedby="button-addon2">
+                    <textarea id="userInput inputFive" class="form-control inputClass" placeholder="Schedule something..."
+                        aria-label="Scheduled Activities" aria-describedby="button-addon2"></textarea>
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="saves">Save Me</button>
+                        <button class="btn btn-outline-secondary" type="button" id="saves" onclick="save()">Save Me</button>
                     </div>
                 </div>
                 
